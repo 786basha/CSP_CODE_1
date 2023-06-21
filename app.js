@@ -77,7 +77,7 @@ function handleSubmit(event) {
 // +++++++++++++++++++++++++++
 
 // // Load the Places library
-function initMap1() {
+function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -33.866, lng: 151.196},
     zoom: 15
