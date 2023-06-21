@@ -7,6 +7,12 @@
     <!-- <link rel="stylesheet" href="/K/ok.css"> -->
 	<link rel="stylesheet" href="style.css">
     <script src="/fun.js"></script>
+	<style>
+		#map {
+		  height: 400px;
+		  width: 100%;
+		}
+	</style>
 </head>
 <body>
     <div class="txt" id="translated-text" style="border:1px solid black;position: absolute;left: 75%;top: 3px;padding: 5px;"></div>
@@ -58,6 +64,10 @@
 		</section>
 		</div>
 	</main>
+	<h1>Displaying Nearby Healthcare Centers on Map</h1>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="/fun.js"></script>
 	
 </body>
 </html>
