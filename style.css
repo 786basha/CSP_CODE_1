@@ -81,7 +81,7 @@ button:hover {
 	color: #333;
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (max-width:480px) {
     .p1 .hero{
         margin: 10px;
         background-image: url('/img/bg_mob_1.jpeg');
