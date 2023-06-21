@@ -10,13 +10,24 @@
             width: 100vw;
             height: 100vh;
             background-color: black;
+            overflow-x: hidden;
         }
         .test{
-            width: ;
+            width: 80vw;
+            height: 70vh;
+            margin: auto;
+            background-image: url('/img/bg_1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
         }
         @media only screen and (max-width:480px) {
             body{
                 background-color: green;
+            }
+            .test{
+                background-image: url('/img/bg_mob_1.jpeg');
             }
         }
     </style>
