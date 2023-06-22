@@ -3,9 +3,16 @@
    <head>
       <title>Empowering Migration Communities</title>
       <meta charset="UTF-8">
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="/app.js"></script>
-      <link rel="stylesheet" href="ok.css">
+      <link rel="stylesheet" href="/style.css">
+      <style>
+         #map {
+           height: 400px;
+           width: 100%;
+         }
+      </style>
    </head>
    <body>
       <header>
@@ -26,6 +33,12 @@
          <section id="healthcare">
             <h2>Healthcare Centers</h2>
             <p>We partner with healthcare providers to offer affordable healthcare services to migrant communities.</p>
+
+	<h1>Displaying Nearby Healthcare Centers on Map</h1>
+   <div id="map"></div>
+   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap1" async defer></script> -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC99wryA5anY58k2zflw1MxJC-KDAwayiY&callback=initMap" async defer></script>
+  
          </section>
          <section id="language">
             <h2>Language Barriers</h2>
@@ -33,6 +46,6 @@
           
          </section>
       </main>
-      <script src="script.js"></script>
+      <!-- <script src="script.js"></script> -->
    </body>
 </html>
