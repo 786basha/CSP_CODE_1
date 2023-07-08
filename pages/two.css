@@ -129,6 +129,7 @@ img{
     }
     .img{
         width: fit-content;
+        height: fit-content;
         margin: auto;
         background-color: #d6c1c1;
         display: flex;
