@@ -94,7 +94,7 @@ footer p {
 margin: 0;
 }
 
-.img, .img{
+.img{
     height: fit-content;
     background-color: #fafafa;
     width: 97vw;
@@ -123,21 +123,22 @@ img{
     }
     main{
         overflow-x: hidden;
-        width: 95vw;
+        width: 90vw;
         margin: auto;
-        /* margin: 10px 10px; */
     }
     .img{
-        width: fit-content;
+        width: 95vw;
         height: fit-content;
         margin: auto;
         background-color: #d6c1c1;
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
 
     }
     #language, #Cultural{
         width: 90vw;
+        height: fit-content;
     }
     .mg img{
         margin: auto;
@@ -145,7 +146,8 @@ img{
         height: 280px;
     }
     .Llinks, .Clinks{
-        width: 95%;
+        width: 350px;
+        margin: auto;
         text-align: center;
         border: none;
     }
