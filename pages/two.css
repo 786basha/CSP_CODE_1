@@ -104,8 +104,10 @@ margin: 0;
 
 /* .img1{
     /* flex-flow: row-reverse; */
-    flex-wrap: wrap;
-} */
+    /* flex-wrap: wrap; */
+
+ */
+
 
 .Clinks, .Llinks{
     text-align: center;
