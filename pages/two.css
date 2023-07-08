@@ -119,20 +119,28 @@ img{
 }
 @media only screen and (max-width:550px) {
     main{
+        overflow-x: hidden;
         width: 95vw;
-        margin: 10px 10px;
+        margin: auto;
+        /* margin: 10px 10px; */
     }
     .img{
-        width: auto;
+        width: fit-content;
         margin: auto;
-        background-color: #f2f2f2;
+        background-color: #d6c1c1;
+        flex-direction: column;
+    }
+    #language, #Cultural{
+        width: 90vw;
     }
     .mg img{
         margin: auto;
-        width: 300px;
+        width: 100%;
         height: 280px;
     }
     .Llinks, .Clinks{
+        width: 95%;
+        text-align: center;
         border: none;
     }
 }
