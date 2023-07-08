@@ -1,57 +1,68 @@
-#map {
+map{
     height: 400px;
     width: 100%;
-  }
-  /* Body styles */
+}
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-/* Header styles */
 header {
-background-color: #333333;
-color: #ffffff;
-padding: 10px;
-text-align: center;
-}
-
-header h1 {
-margin: 0;
-}
-
-/* Navigation styles */
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    }
 nav {
-background-color: #f2f2f2;
-border-bottom: 1px solid #cccccc;
-padding: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav li a {
+    color: #333333;
+    text-decoration: none;
+    }
+    
+    nav li a:hover {
+    color: #666666;
+    }
+    
+
+@media only screen and (max-width:550px) {
+    header h1{
+        font-size: 23px;
+    }
+    main{
+        width: 95vw;
+        height: fit-content;
+        margin: auto;
+    }
+    .img .mg img{
+        width: 420px;height: 270px;
+    }
+    .Llinks{
+        width: fit-content;
+        text-align: center;
+    }
 }
 
-nav ul {
-list-style: none;
-margin: 0;
-padding: 0;
-}
 
-nav li {
-display: inline-block;
-margin-right: 20px;
-}
-
-nav li a {
-color: #333333;
-text-decoration: none;
-}
-
-nav li a:hover {
-color: #666666;
-}
-
-/* Main section styles */
+/* 
 main {
 padding: 20px;
 }
@@ -82,7 +93,7 @@ section h2 {
 margin-top: 0;
 }
 
-/* Footer styles */
+
 footer {
 background-color: #333333;
 color: #ffffff;
@@ -117,7 +128,8 @@ img{
     width: auto;
     height: 300px;
 }
-/* @media only screen and (max-width:550px) {
+
+@media only screen and (max-width:550px) {
     nav{
         padding: 20px;
     }
@@ -151,5 +163,5 @@ img{
         text-align: center;
         border: none;
     }
-} */
-
+}
+*/
