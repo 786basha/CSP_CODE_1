@@ -148,7 +148,7 @@ img{
         border: 10px solid black;
     }
 
-
+}
 @media only screen and (max-width:550px) {
     main{
         width: 95vw;
@@ -169,4 +169,3 @@ img{
     }
 }
 
-}
