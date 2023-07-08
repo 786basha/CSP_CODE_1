@@ -102,10 +102,10 @@ margin: 0;
     flex-wrap: wrap;
 }
 
-.img1{
+/* .img1{
     /* flex-flow: row-reverse; */
     flex-wrap: wrap;
-}
+} */
 
 .Clinks, .Llinks{
     text-align: center;
