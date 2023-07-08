@@ -117,7 +117,7 @@ img{
     width: auto;
     height: 300px;
 }
-@media only screen and (max-width:550px) {
+/* @media only screen and (max-width:550px) {
     nav{
         padding: 20px;
     }
@@ -151,5 +151,5 @@ img{
         text-align: center;
         border: none;
     }
-}
+} */
 
