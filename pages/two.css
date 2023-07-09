@@ -53,11 +53,12 @@ nav {
     .img {
         margin: 10px 20px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
     .img .mg img{
-        width: 400px;
+        width: 500px;
     }
     .img .Llinks, .img .Clinks, #health{
         padding: 40px;
