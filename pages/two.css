@@ -1,4 +1,4 @@
-map{
+#map{
     height: 400px;
     width: 100%;
 }
@@ -41,7 +41,36 @@ nav {
     nav li a:hover {
     color: #666666;
     }
-    
+    #language, #Cultural{
+        width: 95vw;
+        /* border: 1px solid black; */
+        margin: auto;
+        height: fit-content;
+    }
+    #language h2, #Cultural h2{
+        margin: 10px 20px;
+    }
+    .img {
+        margin: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .img .mg img{
+        width: 400px;
+    }
+    .img .Llinks, .img .Clinks, #health{
+        padding: 40px;
+        text-align: center;
+    }
+    .img .Llinks, .img .Clinks, .Hlinks{
+        margin: 10px;
+    }
+    .img .Llinks a button, .img .Clinks a button, .Hlinks a button{
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+    }
 
 @media only screen and (max-width:550px) {
     header h1{
@@ -52,12 +81,24 @@ nav {
         height: fit-content;
         margin: auto;
     }
+    .img {
+        width: 95vw;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
     .img .mg img{
         width: 360px;height: 250px;
     }
     .Llinks{
-        width: fit-content;
+        width: 95vw;
         text-align: center;
+    }
+    #language h2, #Cultural h2{
+        text-align: center;
+    }
+    .img .Llinks, .img .Clinks, #health{
+        padding: 20px;
     }
 }
 
