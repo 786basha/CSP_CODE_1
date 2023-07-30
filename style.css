@@ -1,305 +1,300 @@
-
-
-/* ================================= */
-
 /* Global Styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- 
- body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
- }
- 
- header {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
- }
-
- nav ul {
-    display: flex;
-    list-style: none;
- }
- 
- nav li {
-    margin-left: 2rem;
- }
- 
- nav a {
-    color: #fff;
-    text-decoration: none;
- } 
- 
- main {
-    max-width: 100vw;
-    margin: 2rem auto;
-    padding: 0 1rem;
- }
- 
-
- section {
-    margin-bottom: 2rem;
- }
- 
- section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
- }
- 
- section p {
-    font-size: 1.2rem;
- }
- 
- /* footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
- } */
-/*  
- @media screen {
-	
- } */
- /* Media Queries */
- @media only screen and (max-width: 550px) {
-    nav ul {
-       flex-direction: row;
-       align-items: center;
-    }
-    /* #service , #about{
-        width: fit-content;
-    } */
-    nav li {
-       margin: 1rem 0;
-    }
- }
- 
-
-
-
- /* =============        Index page      ============== */
-
-
- * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
 body {
-	
-	
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #333;
+   font-family: Arial, sans-serif;
+   line-height: 1.5;
 }
 
 header {
-	background-color: #008080;
-	padding: 20px;
+   background-color: #333;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
 }
 
 nav ul {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
+   display: flex;
+   list-style: none;
 }
 
 nav li {
-	margin: 0 10px;
+   margin-left: 2rem;
 }
 
 nav a {
-	text-decoration: none;
-	color: #fff;
+   color: #fff;
+   text-decoration: none;
+} 
+
+main {
+   max-width: 100vw;
+   margin: 2rem auto;
+   padding: 0 1rem;
+}
+
+
+section {
+   margin-bottom: 2rem;
+}
+
+section h2 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+section p {
+   font-size: 1.2rem;
+}
+
+/* footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1rem;
+} */
+/*  
+@media screen {
+  
+} */
+/* Media Queries */
+@media only screen and (max-width: 550px) {
+   nav ul {
+      flex-direction: row;
+      align-items: center;
+   }
+   /* #service , #about{
+       width: fit-content;
+   } */
+   nav li {
+      margin: 1rem 0;
+   }
+}
+
+
+
+
+/* =============        Index page      ============== */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #008080;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
 }
 
 nav a:hover {
-	color: #ff8c00;
+  color: #ff8c00;
 }
 
 .hero {
-	background-image: url('/img/bg_1.png');
-	background-size: 100% 100%;
-	background-position: center;
-	text-align: center;
-	color: #fff;
-	padding: 100px 0;
+  background-image: url('/img/bg_1.png');
+  background-size: 100% 100%;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
 }
 
 .hero h1 {
-	font-size: 60px;
-	margin-bottom: 20px;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .hero p {
-	font-size: 24px;
-	margin-bottom: 40px;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 button {
-	background-color: #ff8c00;
-	color: #fff;
-	border: none;
-	padding: 10px 20px;
-	font-size: 18px;
-	cursor: pointer;
-	border-radius: 5px;
+  background-color: #ff8c00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-	background-color: #fff;
-	color: #333;
+  background-color: #fff;
+  color: #333;
 }
 
 #service , #about{
-    width: 80vw;
-    margin: auto;
+   width: 80vw;
+   margin: auto;
 }
 
 .services {
-	padding: 50px 0;
-	background-color: #f2f2f2;
-	text-align: center;
+  padding: 50px 0;
+  background-color: #f2f2f2;
+  text-align: center;
 }
 
 .services h2 {
-	font-size: 36px;
-	margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .service {
-	margin: 40px;
+  margin: 40px;
 }
 
 /* .service img {
-	width: 100%;
-	max-width: 200px;
-	height: auto;
-	margin-bottom: 20px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
 } */
 
 .service h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .service p {
-	font-size: 18px;
-	line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .about {
-	padding: 50px 0;
-	text-align: center;
+  padding: 50px 0;
+  text-align: center;
 }
 
 .about h2 {
-	font-size: 36px;
-	margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .about p {
-	font-size: 18px;
-	line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 footer {
-	background-color: #008080;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+  background-color: #008080;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 .p1{
-	margin: auto;
-	width: 90vw;
-	height: max-content;
+  margin: auto;
+  width: 90vw;
+  height: max-content;
 }
 
 @media only screen and (max-width:480px) {
-	body{
-		overflow-x: hidden;
-	}
-	#hero{
-        height: fit-content;
-        background-image: url('/img/bg_mob_1.jpeg');
-    }
-    #hero h1{
-        color: #fff7f7;
-        text-shadow: 2px 3px 5px rgb(15, 15, 15);
-    }
+  body{
+     overflow-x: hidden;
+  }
+  #hero{
+       height: fit-content;
+       background-image: url('/img/bg_mob_1.jpeg');
+   }
+   #hero h1{
+       color: #fff7f7;
+       text-shadow: 2px 3px 5px rgb(15, 15, 15);
+   }
 }
 
 /* =======================================-=+++======== */
 /* Contact page */
 
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-  }
-  
-  .container {
-    width: 80%;
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form input[type="tel"],
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  }
-  
-  form textarea {
-    height: 150px;
-  }
-  
-  form button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  form button[type="submit"]:hover {
-    background-color: #3e8e41;
-  }
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+ }
+ 
+ .container {
+   width: 80%;
+   max-width: 800px;
+   margin: 50px auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ h1 {
+   text-align: center;
+ }
+ 
+ form label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ 
+ form input[type="text"],
+ form input[type="email"],
+ form input[type="tel"],
+ form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+ }
+ 
+ form textarea {
+   height: 150px;
+ }
+ 
+ form button[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ form button[type="submit"]:hover {
+   background-color: #3e8e41;
+ }
 
-  video{
-	box-shadow: 0px 0px 25px black;
-  }
+ video{
+  box-shadow: 0px 0px 25px black;
+ }
 
-  
-  /* ========================= */
+ 

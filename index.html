@@ -15,14 +15,16 @@
 	</style>
 </head>
 <body>
-	<header>
-		<nav id="navbar">
-			<a href="#" style="border-bottom: 1px solid white;">Home</a>
-			<a href="#bas">About</a>
-			<a href="#service">Services</a>
-			<a href="/pages/contact.html">Contact</a>
+    <div class="txt" id="translated-text" style="border:1px solid black;position: absolute;left: 75%;top: 3px;padding: 5px;"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+				<li><a href="#bas">About</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="/pages/contact.html">Contact</a></li>
+			</ul>
 		</nav>
-		<div class="txt" id="translated-text" ></div>
 	</header>
 	<main>
 		<div class="ok">
@@ -62,24 +64,13 @@
 		</section>
 		</div>
 	</main>
-	<script src="/app.js"></script>
-	<script>
-		window.onscroll = function() {myFunction()};
+	</div>
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-} 
-	</script>
+<!-- 
+	<h1>Displaying Nearby Healthcare Centers on Map</h1>
+    <div id="map"></div>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap1" async defer></script> -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC99wryA5anY58k2zflw1MxJC-KDAwayiY&callback=initMap" async defer></script>
+	 -->
 </body>
 </html>
