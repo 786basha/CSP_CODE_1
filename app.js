@@ -114,73 +114,23 @@ function initMap() {
   }
 }
 
+function home1(){
+  window.location.href='/index.html';
+}
 
-// ++++++++++++++++++++++++++++
+window.onscroll = function() {myFunction()};
 
-// function initMap() {
+// Get the navbar
+var navbar = document.getElementById("navbar");
 
-//   // Create a map object and specify the DOM element for display.
-//   var map = new google.maps.Map(document.getElementById('map'), {
-//     center: {lat: -33.8688, lng: 151.2195},
-//     zoom: 13
-//   });
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
 
-//   // Try HTML5 geolocation to get the user's location.
-//   if (navigator.geolocation) {
-//     navigator.geolocation.getCurrentPosition(function(position) {
-//       var pos = {
-//         lat: position.coords.latitude,
-//         lng: position.coords.longitude
-//       };
-
-//       // Add a marker at the user's current location
-//       var marker = new google.maps.Marker({
-//         position: pos,
-//         map: map,
-//         title: 'Your Location'
-//       });
-
-//       // Search for nearby healthcare centers
-//       var service = new google.maps.places.PlacesService(map);
-//       service.nearbySearch({
-//         location: pos,
-//         radius: 5000,
-//         keyword: 'healthcare center'
-//       }, callback);
-//     }, function() {
-//       handleLocationError(true, map.getCenter());
-//     });
-//   } else {
-
-//     // Browser doesn't support Geolocation
-//     handleLocationError(false, map.getCenter());
-//   }
-// }
-
-// // Handle errors when getting user's location.
-// function handleLocationError(browserHasGeolocation, pos) {
-//   var infoWindow = new google.maps.InfoWindow({map: map});
-//   infoWindow.setPosition(pos);
-//   infoWindow.setContent(browserHasGeolocation ?
-//                         'Error: The Geolocation service failed.' :
-//                         'Error: Your browser doesn\'t support geolocation.');
-// }
-
-// // Add markers for each nearby healthcare center returned by the Places service.
-// function callback(results, status) {
-//   if (status === google.maps.places.PlacesServiceStatus.OK) {
-//     for (var i = 0; i < results.length; i++) {
-//       createMarker(results[i]);
-//     }
-//   }
-// }
-
-// // Create a marker for each nearby healthcare center.
-// function createMarker(place) {
-//   var placeLoc = place.geometry.location;
-//   var marker = new google.maps.Marker({
-//     map: map,
-//     position: place.geometry.location,
-//     title: place.name
-//   });
-// }
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 

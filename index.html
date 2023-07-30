@@ -5,7 +5,7 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>	
 	<title>Empowering Migrant Communities</title>
     <!-- <link rel="stylesheet" href="/K/ok.css"> -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="recss.css">
     <script src="/app.js"></script>
 	<style>
 		#map {
@@ -16,13 +16,11 @@
 </head>
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#bas">About</a></li>
-				<li><a href="#service">Services</a></li>
-				<li><a href="/pages/contact.html">Contact</a></li>
-			</ul>
+		<nav id="navbar">
+			<a href="#" style="border-bottom: 1px solid white;">Home</a>
+			<a href="#bas">About</a>
+			<a href="#service">Services</a>
+			<a href="/pages/contact.html">Contact</a>
 		</nav>
 		<div class="txt" id="translated-text" ></div>
 	</header>
@@ -64,13 +62,24 @@
 		</section>
 		</div>
 	</main>
-	</div>
+	<script src="/app.js"></script>
+	<script>
+		window.onscroll = function() {myFunction()};
 
-<!-- 
-	<h1>Displaying Nearby Healthcare Centers on Map</h1>
-    <div id="map"></div>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap1" async defer></script> -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC99wryA5anY58k2zflw1MxJC-KDAwayiY&callback=initMap" async defer></script>
-	 -->
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
+	</script>
 </body>
 </html>
